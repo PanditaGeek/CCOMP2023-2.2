@@ -7,7 +7,7 @@ int main() {
   cin >> numero;
 
   for(int c = 1; c <= numero; c++){
-    if((c%2!=0)&&(c%3!=0)&&(c%5!=0)){
+    if((c%2!=0)&&(c%3!=0)&&(c%5!=0)&&(c%5!=0)){
       cout << c << " ";
     }
   }
